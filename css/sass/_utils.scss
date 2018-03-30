@@ -1,0 +1,19 @@
+.left,
+#logo,
+#nav ul li,
+#services .block,
+#services .block .block-header div{
+	float: left;
+}
+.right,
+#nav {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}

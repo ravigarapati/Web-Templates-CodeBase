@@ -1,0 +1,171 @@
+/* line 3, sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 24, sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 28, sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Brand Colors */
+/* Fonts */
+/* line 1, sass/_utils.scss */
+.left,
+#logo,
+#nav ul li,
+#services .block,
+#services .block .block-header div {
+  float: left;
+}
+
+/* line 8, sass/_utils.scss */
+.right,
+#nav {
+  float: right;
+}
+
+/* line 12, sass/_utils.scss */
+.clear {
+  clear: both;
+}
+
+/* line 16, sass/_utils.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 1, sass/_sprite.scss */
+.sprite {
+  background: url(.././images/sprite.png) no-repeat;
+  display: block;
+}
+
+/* line 5, sass/_sprite.scss */
+.web-design {
+  background-position: 0 0;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 1, sass/_header.scss */
+#header {
+  background: #fff;
+  padding: 10px 10px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 8px #ddd;
+}
+
+/* line 11, sass/_header.scss */
+#nav ul li a {
+  display: block;
+  padding: 10px 15px;
+}
+/* line 14, sass/_header.scss */
+#nav ul li a:hover, #nav ul li a.current {
+  color: #17e2d8;
+}
+
+/* main */
+/* line 11, sass/sortpixel.scss */
+body {
+  background: #ecebe7;
+  font: 14px/22px arial;
+  color: #c3c3c3;
+}
+
+/* line 17, sass/sortpixel.scss */
+.container {
+  margin: 0 auto;
+  width: 990px;
+}
+
+/* line 22, sass/sortpixel.scss */
+#wrapper {
+  padding: 10px 0;
+}
+
+/* line 25, sass/sortpixel.scss */
+#banner {
+  padding: 10px 10px;
+  background: #fff;
+}
+
+/* line 30, sass/sortpixel.scss */
+#banner img {
+  width: 970px;
+}
+
+/* line 35, sass/sortpixel.scss */
+#services {
+  margin-top: 10px;
+  padding: 5px 5px;
+  background: #fff;
+  overflow: hidden;
+}
+/* line 40, sass/sortpixel.scss */
+#services .block {
+  width: 180px;
+  padding: 5px 5px;
+}
+/* line 43, sass/sortpixel.scss */
+#services .block .block-header {
+  padding: 10px 0;
+  overflow: hidden;
+}
+/* line 47, sass/sortpixel.scss */
+#services .block h3 {
+  text-transform: uppercase;
+}
+/* line 50, sass/sortpixel.scss */
+#services .block p {
+  line-height: 16px;
+}

@@ -1,0 +1,56 @@
+@import 'reset';
+@import 'variables';
+@import 'utils';
+@import 'sprite';
+@import 'header';
+
+
+/* main */
+
+
+body {
+	background: $home-bg;
+	font: 14px/22px $font-family;
+	color: #c3c3c3;
+}
+
+.container {
+	margin: 0 auto;
+	width: 990px;
+}
+
+#wrapper {
+	padding: 10px 0;
+}
+#banner {
+	padding: 10px 10px;
+	background: $brand-white;
+}
+
+#banner img {
+	width: 970px;
+}
+
+
+#services {
+	margin-top: 10px;
+	padding: 5px 5px;
+	background: $brand-white;
+	overflow: hidden;
+	.block{
+		width: 180px;
+		padding: 5px 5px;
+		.block-header {
+			padding: 10px 0;
+			overflow: hidden;
+		}
+		h3 {
+			text-transform: uppercase;
+		}
+		p {
+			line-height: 16px;
+		}
+	}
+}
+
+
